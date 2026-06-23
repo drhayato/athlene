@@ -8,8 +8,15 @@ Unlike many fitness applications, Athlene stores all user data locally, ensuring
 
 ## 📥 Download
 
-> **Latest APK:**
-> **[⬇️ Download Athlene v1.0.0](https://github.com/drhayato/athlene/releases/latest)**
+# 🏃 Athlene
+
+<p align="center">
+  <a href="https://github.com/drhayato/athlene/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20Download-Latest%20APK-success?style=for-the-badge" />
+  </a>
+</p>
+
+Athlene is a privacy-focused fitness tracking application built with Flutter that provides accurate step counting...  
 
 > **Note:** Android may ask you to enable **Install from Unknown Sources** before installing the APK.
 
@@ -30,12 +37,7 @@ Unlike many fitness applications, Athlene stores all user data locally, ensuring
 
 ## 📸 Screenshots
 
-> *(Add screenshots here once available.)*
-
-| Home       | Activity   | Statistics |
-| ---------- | ---------- | ---------- |
-| Screenshot | Screenshot | Screenshot |
-
+> *(screenshots will be added soon)*
 ---
 
 ## 🛠 Tech Stack
@@ -90,7 +92,7 @@ Since every calculation is performed locally, the application remains fully func
 
 ---
 
-## 🚀 Running the Project
+## 🚀 Running the Project (for developers)
 
 Clone the repository
 
