@@ -52,6 +52,12 @@ ACCESS_FINE_LOCATION
 
 ACCESS_COARSE_LOCATION
 
+<p align="center">
+  <a href="https://github.com/drhayato/athlene/releases/latest">
+    <img src="https://img.shields.io/badge/⬇️%20Download-Latest%20APK-success?style=for-the-badge" alt="Download APK"/>
+  </a>
+</p>
+
 Run the app
 
 Bash
