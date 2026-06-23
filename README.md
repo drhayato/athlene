@@ -1,68 +1,136 @@
-Athlene 🏃‍♂️
-Athlene is a high-performance, privacy-focused fitness tracking application built with Flutter. Unlike mainstream fitness apps, Athlene is designed to be completely free of "Premium" paywalls and functions entirely offline.
+# 🏃 Athlene
 
-By leveraging local hardware sensors and efficient mathematical algorithms, Athlene provides accurate step counting, distance tracking, and calorie estimation even in the most remote areas—like hill stations—where internet connectivity is unavailable.
+**Athlene** is a privacy-focused fitness tracking application built with Flutter that provides accurate step counting, distance tracking, and calorie estimation without requiring an internet connection or subscription.
 
-🌟 Key Features
-Zero-Internet Dependency: Works perfectly in remote areas with no cellular data or Wi-Fi.
+Unlike many fitness applications, Athlene stores all user data locally, ensuring complete privacy while remaining fully functional in remote areas with limited or no network connectivity.
 
-Precision Tracking: Uses a custom dot-drop system every 3-5 meters with manual displacement override.
+---
 
-Privacy First: All health and location data is stored locally on your device.
+## 📥 Download
 
-Visual Progress: Features a custom circular progress algorithm for real-time goal visualization.
+> **Latest APK:**
+> **[⬇️ Download Athlene v1.0.0](https://github.com/drhayato/athlene/releases/latest)**
 
-Smart Resets: Implements a Midnight Reset Algorithm to ensure your daily stats start fresh every 24 hours.
+> **Note:** Android may ask you to enable **Install from Unknown Sources** before installing the APK.
 
-🛠 Tech Stack
-Frontend: Flutter
+---
 
-Sensors: pedometer for step counting, geolocator for GPS coordinates.
+## ✨ Features
 
-Mapping: flutter_maps with latlong2 for handling geographical data.
+* 🚶 Accurate step tracking using device sensors
+* 📍 GPS-based distance tracking
+* 🔥 MET-based calorie estimation
+* 🗺️ Interactive map integration
+* 📈 Circular daily progress visualization
+* 🌙 Automatic midnight reset for daily statistics
+* 🔒 100% local data storage
+* 📶 Works without an internet connection
 
-Local Data: Entirely local storage architecture (No Cloud required).
+---
 
-🧮 Core Algorithms & Logic
-Athlene relies on industry-standard mathematical formulas to ensure accuracy without server-side processing:
+## 📸 Screenshots
 
-Distance Calculation: Implements the Haversine Formula to calculate the great-circle distance between latitude and longitude points.
+> *(Add screenshots here once available.)*
 
-Calorie Counting: Uses the Metabolic Equivalent of Task (MET) values to estimate energy expenditure based on activity intensity and user displacement.
+| Home       | Activity   | Statistics |
+| ---------- | ---------- | ---------- |
+| Screenshot | Screenshot | Screenshot |
 
-Interval Recording: A custom Time-Based Interval Algorithm captures distance data at specific time steps to provide detailed performance breakdown.
+---
 
-Architecture: Built using a Singleton Location Service to manage a single, consistent stream of location data throughout the app lifecycle.
+## 🛠 Tech Stack
 
-🚀 Installation & Setup
+| Category      | Technology           |
+| ------------- | -------------------- |
+| Framework     | Flutter              |
+| Language      | Dart                 |
+| Step Tracking | pedometer            |
+| Location      | geolocator           |
+| Maps          | flutter_map          |
+| Coordinates   | latlong2             |
+| Storage       | Local Device Storage |
+
+---
+
+## 🧠 Core Algorithms
+
+Athlene performs all calculations directly on the user's device without relying on cloud processing.
+
+### Distance Calculation
+
+* Haversine Formula
+* Great-circle distance computation using GPS coordinates
+
+### Calorie Estimation
+
+* Metabolic Equivalent of Task (MET)
+* Activity-based calorie estimation
+
+### Tracking Logic
+
+* Custom interval-based location recording
+* Automatic daily statistics reset
+* Singleton Location Service for efficient GPS management
+
+---
+
+## 📍 Designed for Offline Use
+
+Athlene is intended for users who exercise in environments where internet connectivity is unreliable.
+
+Examples include:
+
+* Hiking
+* Trekking
+* Nature trails
+* Hill stations
+* Rural environments
+
+Since every calculation is performed locally, the application remains fully functional even without cellular data or Wi-Fi.
+
+---
+
+## 🚀 Running the Project
+
 Clone the repository
 
-Bash
+```bash
 git clone https://github.com/drhayato/athlene.git
+```
+
 Install dependencies
 
-Bash
+```bash
 flutter pub get
-Configure Permissions
-Ensure you have the following permissions in your AndroidManifest.xml and Info.plist:
+```
 
-ACTIVITY_RECOGNITION / Motion Usage
+Run the application
 
-ACCESS_FINE_LOCATION
-
-ACCESS_COARSE_LOCATION
-
-<p align="center">
-  <a href="https://github.com/drhayato/athlene/releases/latest">
-    <img src="https://img.shields.io/badge/⬇️%20Download-Latest%20APK-success?style=for-the-badge" alt="Download APK"/>
-  </a>
-</p>
-
-Run the app
-
-Bash
+```bash
 flutter run
-📍 Use Case: The Hill Station Advantage
-Most modern trackers fail or lose data when the GPS signal is weak or the internet drops. Athlene’s "dot-drop" tracking (every 3-5 meters) and local Haversine calculations make it the ideal companion for trekkers and hikers in remote terrains where connectivity is non-existent.
+```
 
-Created with ❤️ for the fitness community.
+---
+
+## 🔑 Required Permissions
+
+Android
+
+* ACTIVITY_RECOGNITION
+* ACCESS_FINE_LOCATION
+* ACCESS_COARSE_LOCATION
+
+iOS
+
+* Motion Usage
+* Location Services
+
+---
+
+## 📄 License
+
+This project is intended for educational and portfolio purposes.
+
+---
+
+### ❤️ Made by Hayato
