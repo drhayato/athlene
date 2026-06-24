@@ -35,16 +35,26 @@ Athlene is a privacy-focused fitness tracking application built with Flutter tha
 
 ## 📸 Screenshots
 
-> Analytics UI :
- <img width="1080" height="2400" alt="e1110e5c-4c57-45ba-961b-83229038296a" src="https://github.com/user-attachments/assets/bba6f80f-0a04-4bf1-8db6-156b6a7e54e6" />
+<p align="center">
+  <strong>Analytics UI</strong><br><br>
+  <img src="https://github.com/user-attachments/assets/bba6f80f-0a04-4bf1-8db6-156b6a7e54e6"
+       alt="Analytics UI"
+       width="250">
+</p>
 
-> Map :
-<img width="720" height="1600" alt="37eea5ee-35df-4e45-9865-d4e49043a5f2" src="https://github.com/user-attachments/assets/4d762ec0-b894-4e76-80e2-a84b26e000cd" />
+<p align="center">
+  <strong>Map</strong><br><br>
+  <img src="https://github.com/user-attachments/assets/4d762ec0-b894-4e76-80e2-a84b26e000cd"
+       alt="Map"
+       width="250">
+</p>
 
-> Login Interface :
-<img width="1080" height="2400" alt="d39b6d86-d1a3-4403-8d50-d14fd5916171" src="https://github.com/user-attachments/assets/82907029-4c85-4071-a2a5-2f6a32e6b1f9" />
-
-
+<p align="center">
+  <strong>Login Interface</strong><br><br>
+  <img src="https://github.com/user-attachments/assets/82907029-4c85-4071-a2a5-2f6a32e6b1f9"
+       alt="Login Interface"
+       width="250">
+</p>
 ---
 
 ## 🛠 Tech Stack
